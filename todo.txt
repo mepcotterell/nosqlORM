@@ -1,0 +1,28 @@
+map/reduce failing with classloader issue
+
+
+finish PLAY plugin for NoSql stuff to make that easier...only need to add edits now to playframework plugin and we are good..later add gui for queries
+
+do a TimeUUID for PlayOrm with a type1 style UUID (ie. not random) and allow queries on time range as well.
+
+make sure query on LocalDateTime works and add test case as well
+
+test query by a data format like 10/2/21 10:15:37.893
+
+add queries/indexing of @Embedded stuff as well
+
+Add the in clause in S-SQL so we can also do a findAll without findAll method at all
+
+tests for extra data so we can read in row AND read in data we don't have schema for as well to tack on to entity
+
+Add generic Map<ByteArray, byte[]> to suck in additional columns we don't have schema for as well
+
+playframework plugin as well using query interface in development mode
+
+delayed joins not working yet
+
+
+allow to query on non-index fields!!!
+
+add support for hadoop first and then mongodb after that as well
+
